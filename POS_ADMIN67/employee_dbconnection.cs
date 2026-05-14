@@ -29,6 +29,7 @@ namespace REGULLANO_OOPL01E_CPE_201
         public void employee_connString()
         {
             employee_sql_connection = new SqlConnection();
+                                                       //palitan mo nlng toh ng database mo
             employee_connectionString = "Data Source = \"LENOVO\\SQLEXPRESS\"; Initial Catalog = SampleDatabaseDb; Integrated Security = True";
             employee_sql_connection = new SqlConnection(employee_connectionString);
             employee_sql_connection.ConnectionString = employee_connectionString;

@@ -22,9 +22,14 @@ namespace REGULLANO_OOPL01E_CPE_201
         public SqlDataAdapter login_sql_dataadapter;
         public string login_sql = null;
 
+        // pag nag rered sa sqlconnection or something download ka microsoft.data.sqlclient tsaka  system.data.sqlclient
+        // steps sa pag download  = pindutin mo sa taas ung Project tas pindutin mo ung manage NuGet package tas punta ka browse tapos hanapin mo ung pinapa download ko 
+        // skill issue nayan pag di nyo pa naiintindihan de jk WAHAHAHHA
+
         public void login_connString()
         {
             login_sql_connection = new SqlConnection();
+                                               //palitan mo nlng toh ng database mo basta pag nakita mo ganto
             login_connectionString = "Data Source = \"LENOVO\\SQLEXPRESS\"; Initial Catalog = SampleDatabaseDb; Integrated Security = True";
             login_sql_connection = new SqlConnection(login_connectionString);
             login_sql_connection.ConnectionString = login_connectionString;

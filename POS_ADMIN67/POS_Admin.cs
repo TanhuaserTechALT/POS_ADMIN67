@@ -32,7 +32,7 @@ namespace REGULLANO_OOPL01E_CPE_201
         {
             try
             {
-                pic = System.Drawing.Image.FromFile("C:\\Users\\jereg\\source\\repos\\BenJosephRegullano\\REGULLANO_OOPL01E_CPE-201\\Images\\default.png");
+                pic = System.Drawing.Image.FromFile("// default image name tsaka location mo palitan mo nlng");
                 picpathTxtbox1.Clear(); picpathTxtbox2.Clear(); picpathTxtbox3.Clear();
                 picpathTxtbox4.Clear(); picpathTxtbox5.Clear(); picpathTxtbox6.Clear();
                 picpathTxtbox7.Clear(); picpathTxtbox8.Clear(); picpathTxtbox9.Clear();
